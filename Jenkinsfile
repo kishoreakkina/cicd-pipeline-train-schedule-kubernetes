@@ -42,8 +42,7 @@ pipeline {
             when {
                 branch 'master'
             }
-            steps {
-                input 'Deploy to Production?'
+            
         
                 steps {
                 input 'Deploy to Production?'
